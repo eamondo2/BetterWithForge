@@ -1,0 +1,16 @@
+[
+{
+  "modid": "BetterWithForge",
+  "name": "Better With Forge",
+  "description": "A re-make of Better than Wolves",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["eamondo2, aquamanforlife"],
+  "credits": "eamondo2, aquamanforlife",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
