@@ -1,6 +1,7 @@
 package com.eamondo2.bwf;
 
-import com.eamondo2.bwf.com.eamondo2.bwf.items.ItemLoader;
+
+import com.eamondo2.bwf.items.ItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
