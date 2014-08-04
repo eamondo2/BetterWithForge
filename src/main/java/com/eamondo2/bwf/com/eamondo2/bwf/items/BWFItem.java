@@ -12,12 +12,10 @@ public class BWFItem extends Item {
 		setCreativeTab(CreativeTabs.tabMisc);
 		setUnlocalizedName("genericItem");
 
-	}
-
-	public void registerItem(){
-		ItemLoader.addToItemList(this);
 
 	}
+
+
 
 
 }
