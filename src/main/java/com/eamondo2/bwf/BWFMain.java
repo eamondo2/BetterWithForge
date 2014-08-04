@@ -8,10 +8,8 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
+import java.util.logging.Logger;
 
-/**
- * Created by eamon_000 on 8/4/2014.
- */
 
 @Mod(modid="BetterWithForge", name="Better With Forge", version="0.0.0")
 public class BWFMain {
@@ -23,18 +21,23 @@ public class BWFMain {
 
 	@Mod.EventHandler
 	public void preInit (FMLPreInitializationEvent e){
+		Logger.getLogger("BWFMAIN").info("PRELOADING");
+
+
 
 	}
 
 	@Mod.EventHandler
 	public void load (FMLInitializationEvent e){
+		proxy.registerRenderers();
+		
 
 	}
 
 	@Mod.EventHandler
 	public void postInit (FMLPostInitializationEvent e){
 
-		
+
 	}
 
 
