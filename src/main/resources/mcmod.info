@@ -3,7 +3,7 @@
   "modid": "BetterWithForge",
   "name": "Better With Forge",
   "description": "A re-make of Better than Wolves",
-  "version": "${version}",
+  "version": "0.0.0",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",

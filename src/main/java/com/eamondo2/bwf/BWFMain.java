@@ -1,5 +1,6 @@
 package com.eamondo2.bwf;
 
+import com.eamondo2.bwf.com.eamondo2.bwf.items.ItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -22,7 +23,8 @@ public class BWFMain {
 	@Mod.EventHandler
 	public void preInit (FMLPreInitializationEvent e){
 		Logger.getLogger("BWFMAIN").info("PRELOADING");
-
+		//load custom items
+		ItemLoader.initPhase();
 
 
 	}
@@ -30,7 +32,7 @@ public class BWFMain {
 	@Mod.EventHandler
 	public void load (FMLInitializationEvent e){
 		proxy.registerRenderers();
-		
+
 
 	}
 
