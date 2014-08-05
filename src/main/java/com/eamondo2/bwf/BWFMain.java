@@ -1,6 +1,7 @@
 package com.eamondo2.bwf;
 
 
+import com.eamondo2.bwf.blocks.BlockLoader;
 import com.eamondo2.bwf.events.EventHook;
 import com.eamondo2.bwf.items.ItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
@@ -28,6 +29,7 @@ public class BWFMain {
 		Logger.getLogger("BWFMAIN").info("PRELOADING");
 		//load custom items
 		ItemLoader.initPhase();
+		BlockLoader.initPhase();
 
 
 	}

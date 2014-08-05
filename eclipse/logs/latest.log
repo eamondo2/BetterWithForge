@@ -1,28 +1,46 @@
-[12:25:58] [main/INFO]: Setting user: ForgeDevName
-[12:26:01] [Client thread/INFO]: LWJGL Version: 2.9.0
-[12:26:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
-[12:26:12] [Sound Library Loader/INFO]: Sound engine started
-[12:26:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:26:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:26:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
-[12:26:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:26:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:26:19] [Sound Library Loader/INFO]: Sound engine started
-[12:26:25] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[12:26:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[12:26:28] [Server thread/INFO]: Generating keypair
-[12:26:29] [Server thread/INFO]: Preparing start region for level 0
-[12:26:30] [Server thread/INFO]: Preparing spawn area: 5%
-[12:26:33] [Server thread/INFO]: ForgeDevName[local:E:97ad2d01] logged in with entity id 322 at (191.69999998807907, 70.0, -51.69999998807907)
-[12:26:33] [Server thread/INFO]: ForgeDevName joined the game
-[12:26:41] [Server thread/INFO]: Saving and pausing game...
-[12:26:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:26:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:26:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:26:42] [Server thread/INFO]: Stopping server
-[12:26:42] [Server thread/INFO]: Saving players
-[12:26:42] [Server thread/INFO]: Saving worlds
-[12:26:42] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:26:42] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:26:42] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:26:44] [Client thread/INFO]: Stopping!
+[17:48:39] [main/INFO]: Setting user: ForgeDevName
+[17:48:43] [Client thread/INFO]: LWJGL Version: 2.9.0
+[17:48:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
+[17:48:54] [Sound Library Loader/INFO]: Sound engine started
+[17:48:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:48:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
+[17:49:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:49:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:49:01] [Sound Library Loader/INFO]: Sound engine started
+[17:49:05] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[18:03:07] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[18:03:07] [Server thread/INFO]: Generating keypair
+[18:03:11] [Server thread/INFO]: Preparing start region for level 0
+[18:03:12] [Server thread/INFO]: Preparing spawn area: 12%
+[18:03:15] [Server thread/INFO]: ForgeDevName[local:E:163e228f] logged in with entity id 337 at (-4.0327599229765845, 62.0, 6.122964350510004)
+[18:03:15] [Server thread/INFO]: ForgeDevName joined the game
+[18:03:17] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Exception ticking world
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:693) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:608) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:482) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:747) [MinecraftServer$2.class:?]
+Caused by: java.lang.NullPointerException
+	at com.eamondo2.bwf.events.EventHook.blockHarvestEvent(EventHook.java:30) ~[EventHook.class:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler_6_EventHook_blockHarvestEvent_HarvestDropsEvent.invoke(.dynamic) ~[?:?]
+	at cpw.mods.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:51) ~[ASMEventHandler.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.post(EventBus.java:122) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.fireBlockHarvesting(ForgeEventFactory.java:122) ~[ForgeEventFactory.class:?]
+	at net.minecraft.block.Block.dropBlockAsItemWithChance(Block.java:809) ~[Block.class:?]
+	at net.minecraft.block.BlockLeaves.dropBlockAsItemWithChance(BlockLeaves.java:260) ~[BlockLeaves.class:?]
+	at net.minecraft.block.Block.dropBlockAsItem(Block.java:798) ~[Block.class:?]
+	at net.minecraft.block.BlockLeaves.removeLeaves(BlockLeaves.java:238) ~[BlockLeaves.class:?]
+	at net.minecraft.block.BlockLeaves.updateTick(BlockLeaves.java:215) ~[BlockLeaves.class:?]
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:421) ~[WorldServer.class:?]
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:192) ~[WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:687) ~[MinecraftServer.class:?]
+	... 4 more
+[18:03:17] [Server thread/ERROR]: This crash report has been saved to: Z:\JavaDev\forge-1.7.2-10.12.2.1147-src\eclipse\.\crash-reports\crash-2014-08-05_18.03.17-server.txt
+[18:03:17] [Server thread/INFO]: Stopping server
+[18:03:17] [Server thread/INFO]: Saving players
+[18:03:17] [Server thread/INFO]: Saving worlds
+[18:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:03:17] [Server thread/INFO]: Saving chunks for level 'New World'/The End
