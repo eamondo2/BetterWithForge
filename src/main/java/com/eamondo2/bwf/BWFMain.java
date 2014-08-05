@@ -1,7 +1,7 @@
 package com.eamondo2.bwf;
 
 
-import com.eamondo2.bwf.events.EventHandler;
+import com.eamondo2.bwf.events.EventHook;
 import com.eamondo2.bwf.items.ItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -28,14 +28,14 @@ public class BWFMain {
 		Logger.getLogger("BWFMAIN").info("PRELOADING");
 		//load custom items
 		ItemLoader.initPhase();
-		MinecraftForge.EVENT_BUS.register(new EventHandler());
+
 
 	}
 
 	@Mod.EventHandler
 	public void load(FMLInitializationEvent e) {
 		proxy.registerRenderers();
-
+		MinecraftForge.EVENT_BUS.register(new EventHook());
 
 	}
 
