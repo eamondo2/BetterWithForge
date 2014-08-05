@@ -47,3 +47,17 @@
 [15:38:41] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [15:38:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
 [15:38:41] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:39:42] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[16:39:43] [main/INFO] [GradleStart]: Extra: []
+[16:39:43] [main/INFO] [GradleStart]: Setting up virtual assets in: C:\Users\eamon_000\.gradle\caches\minecraft\assets\virtual\legacy
+[16:39:45] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, legacy, --assetsDir, C:\Users\eamon_000\.gradle\caches\minecraft\assets\virtual\legacy, --version, 1.7.2]
+[16:39:45] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:39:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:39:45] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:44:20] [main/INFO] [GradleStart]: No arguments specified, assuming client.
+[16:44:20] [main/INFO] [GradleStart]: Extra: []
+[16:44:20] [main/INFO] [GradleStart]: Setting up virtual assets in: C:\Users\eamon_000\.gradle\caches\minecraft\assets\virtual\legacy
+[16:44:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, legacy, --assetsDir, C:\Users\eamon_000\.gradle\caches\minecraft\assets\virtual\legacy, --version, 1.7.2]
+[16:44:22] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:44:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:44:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
