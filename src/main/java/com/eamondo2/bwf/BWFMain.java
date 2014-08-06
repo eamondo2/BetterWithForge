@@ -5,6 +5,7 @@ import com.eamondo2.bwf.blocks.BlockLoader;
 import com.eamondo2.bwf.events.EventHook;
 import com.eamondo2.bwf.items.ItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
+import com.eamondo2.bwf.recipes.BWFRecipeLoader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
@@ -31,7 +32,8 @@ public class BWFMain {
 		ItemLoader.initPhase();
         //load custom blocks
 		BlockLoader.initPhase();
-
+		//load custom recipes
+		BWFRecipeLoader.initPhase();
 
 	}
 
