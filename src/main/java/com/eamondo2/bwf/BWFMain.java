@@ -29,6 +29,7 @@ public class BWFMain {
 		Logger.getLogger("BWFMAIN").info("PRELOADING");
 		//load custom items
 		ItemLoader.initPhase();
+        //load custom blocks
 		BlockLoader.initPhase();
 
 
