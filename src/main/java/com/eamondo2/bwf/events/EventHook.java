@@ -1,6 +1,7 @@
 package com.eamondo2.bwf.events;
 
 import com.eamondo2.bwf.items.BWFItempileDirt;
+import com.eamondo2.bwf.items.ItemLoader;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -69,7 +70,8 @@ public class EventHook {
             e.drops.clear();
             //insert logic for determining block type, and the appropriate pile to drop
             if (b.equals(Blocks.dirt) ||b.equals( Blocks.grass)){
-
+                //This is where we create the new stack
+                ItemStack pileDirt = new ItemStack(ItemLoader.pileDirt);
 
 
             }
