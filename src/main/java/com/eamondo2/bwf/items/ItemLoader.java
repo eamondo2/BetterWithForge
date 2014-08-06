@@ -12,6 +12,7 @@ public class ItemLoader {
 
 	public static void initPhase() {
 
+
 		GameRegistry.registerItem(pileDirt, "itemPileDirt");
 		GameRegistry.registerItem(pileGravel, "itemPileGravel");
 		GameRegistry.registerItem(pileSoulSand, "itemPileSoulSand");
