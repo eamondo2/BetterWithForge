@@ -1,13 +1,10 @@
 package com.eamondo2.bwf.events;
 
-import com.eamondo2.bwf.items.BWFItempileDirt;
 import com.eamondo2.bwf.items.ItemLoader;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.world.BlockEvent;
 
@@ -43,8 +40,8 @@ public class EventHook {
             isPlayer = true;
         }
         Block b = e.block;
-        ItemStack inHand;
-        String blockToolClass = "";
+		ItemStack inHand = null;
+		String blockToolClass = "";
         if (b.getHarvestTool(e.blockMetadata) != null){
             blockToolClass = b.getHarvestTool(e.blockMetadata);
         }
@@ -58,10 +55,22 @@ public class EventHook {
 
             }
         }
-        for (String s : inHandToolClasses){
-            System.out.println(s);
-        }
-        System.out.println(blockToolClass);
+		String inHandToolClass = "";
+		if (inHand != null && inHand.getItem().getToolClasses(inHand) != null) {
+			for (String s : inHandToolClasses) {
+				inHandToolClass = s;
+				System.out.println(s);
+			}
+		}
+		System.out.println(blockToolClass);
+		//Determine if correct tool
+		if (inHandToolClass.equalsIgnoreCase(blockToolClass)) {
+			correctTool = true;
+		} else {
+			correctTool = false;
+		}
+
+
         //now that we have both strings to compare against, make a method to drop the appropriate item
         if (correctTool){
             //drop teh orig block
