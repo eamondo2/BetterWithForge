@@ -1,0 +1,23 @@
+This mod will be separated into distinct tiers.
+The first few tiers wil directly pull from betterthanwolves, and then after that, they will attempt to integrate other mods.
+Tier0 - Starting phase
+    Basically, the first tree punching and resource gathering phase.
+    No tools to speak of, logs only drop one plank, and also take forever to break.
+    One plank = 2 sticks
+    cannot make wooden axe, and wooden picks only mine one block before breaking.
+    This is the hardest phase.
+    Also, re-vamped hunger mechanics, food scarcity, and increased fatigue from the amount of blocks/items carried.
+    (iterate through inventory, store to array of stuff, update on changes, and affect the player's walking speed, as well as food decrease rate
+    goals for this tier are to gather enough resources to make a stone pick, and to secure enough food
+    to last for the first night.
+    gathering surface coal is also important.
+Tier1 - Begins when the player has enough cobble to make a few picks, and a temporary residence
+    This tier is all about harvesting higher level resources. Iron mostly.
+    Iron ore only drops piles of iron rubble, which only makes one nugget per ore in the beginning phase.
+    the goal here is to get enough iron to make the smeltery pit, which requires iron in the recipe.
+    Smeltery pit is a multiblock structure, 3x2, hole in the middle, and on activated
+    forms an inventory that is identical to the furnace.
+    This is the first machine/thing that I need to make.
+    It provides a way to smelt piles of iron rubble into more than one iron nugget
+    It also provides a way to get redstone, albeit really really slowly.
+    redstone only drops the crushed ore, and cannot be refined until this machine is made
