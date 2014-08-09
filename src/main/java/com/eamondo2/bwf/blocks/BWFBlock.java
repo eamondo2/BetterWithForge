@@ -8,8 +8,8 @@ import net.minecraft.block.material.Material;
  */
 public class BWFBlock extends Block {
 
-	public BWFBlock(Material material) {
-		super(material);
+	public BWFBlock() {
+		super(Material.air);
 	}
 
 

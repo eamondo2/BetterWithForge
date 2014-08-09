@@ -21,10 +21,7 @@ public class EventHook {
 	@SubscribeEvent
 	public void blockHarvestEvent(BlockEvent.HarvestDropsEvent e) {
 		System.out.println("Harvest Event Called");
-		if (e.block == Blocks.iron_ore) {
-			e.drops.clear();
-			e.drops.add(new ItemStack(BWFItemLoader.crushedIron));
-		}
+
 
 		Boolean correctTool = BWFUtils.TestHarvestEvent(e.harvester, e.block, e.blockMetadata);
 		Block b = e.block;

@@ -1,14 +1,13 @@
 package com.eamondo2.bwf.items;
 
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import com.eamondo2.bwf.BWFMain;
 
 public class BWFItempileDirt extends BWFItem {
 
 	public BWFItempileDirt() {
 		setMaxStackSize(16);
-		setCreativeTab(CreativeTabs.tabMaterials);
+		setCreativeTab(BWFMain.modTab);
 		setUnlocalizedName("itemPileDirt");
 		setTextureName("bwf:itemPileDirt");
 

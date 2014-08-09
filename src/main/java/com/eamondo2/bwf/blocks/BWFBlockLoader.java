@@ -9,5 +9,7 @@ import net.minecraft.init.Blocks;
 public class BWFBlockLoader {
 	public static void initPhase() {
 		Blocks.dirt.setHarvestLevel("shovel", 0);
+
+
 	}
 }
