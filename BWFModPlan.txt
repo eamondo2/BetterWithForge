@@ -21,3 +21,42 @@ Tier1 - Begins when the player has enough cobble to make a few picks, and a temp
     It provides a way to smelt piles of iron rubble into more than one iron nugget
     It also provides a way to get redstone, albeit really really slowly.
     redstone only drops the crushed ore, and cannot be refined until this machine is made
+    The Smeltery pit
+        first multiblock structure.
+        made with an Iron cauldron in the middle, and a furnace under it.
+        layer 1 is 3x3 cobblestone
+        layer 2 is more cobble, but with this pattern
+        xxx
+        xxx
+        xfx
+        x = cobble, f = furnace
+        layer 3 is a ring of iron grates, with a cauldron in the middle
+        xxx
+        xcx
+        xxx
+        x = iron grate
+        c = cauldron
+        on assembly, done by player rightclicking on the cauldron.
+        eventually, will be replaced with a tile entity, of a simple 3x3 structure
+        the block under the cauldron is replaced with fire whenever there is something cooking
+
+Tier2
+
+Tier3
+
+Tier4
+fuck it, rip off btw completely
+all the various machines, and sources of power
+especially farming stuff. millstone and the
+ore washing machine
+
+
+
+
+
+I would advocate all multiblock-type structures as being made up of component 'magic blocks', to form a sort of rube-goldberg machine. Think along the lines of vanilla redstone contraptions, with pistons and other such moving parts.
+For example: give the player a set of tools or 'magic blocks' that each fulfill a simple task. One turns x into y, via some plausible method. Another moves x to another location, conveyor belt etc.
+And so on.
+So in the end the player has to work around their environment to make a complex combination of said components to complete an overall objective, turning raw ore into ingots.
+However, the presentation is also a major part. If you have grey drab squares all sort of moving back and forth, that is not very interesting.
+But, if you instead have loudly smashing pistons, with smoke and flame animations, and minecarts going to and fro with various components, it will in the end be a much more rewarding process.
