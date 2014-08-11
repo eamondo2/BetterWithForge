@@ -1,12 +1,32 @@
-[12:16:24] [main/INFO]: Setting user: ForgeDevName
-[12:16:27] [Client thread/INFO]: LWJGL Version: 2.9.0
-[12:16:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
-[12:16:38] [Sound Library Loader/INFO]: Sound engine started
-[12:16:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:16:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:16:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
-[12:16:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[12:16:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[12:16:44] [Sound Library Loader/INFO]: Sound engine started
-[12:16:48] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[12:16:50] [Client thread/INFO]: Stopping!
+[23:38:19] [main/INFO]: Setting user: ForgeDevName
+[23:38:21] [Client thread/INFO]: LWJGL Version: 2.9.0
+[23:38:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
+[23:38:30] [Sound Library Loader/INFO]: Sound engine started
+[23:38:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:38:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:38:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better With Forge
+[23:38:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:38:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:38:36] [Sound Library Loader/INFO]: Sound engine started
+[23:38:39] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[23:38:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[23:38:41] [Server thread/INFO]: Generating keypair
+[23:38:41] [Server thread/INFO]: Preparing start region for level 0
+[23:38:42] [Server thread/INFO]: Preparing spawn area: 86%
+[23:38:43] [Server thread/INFO]: ForgeDevName[local:E:31862a5f] logged in with entity id 150 at (-50.81116667077531, 73.0, 10.026989094542506)
+[23:38:43] [Server thread/INFO]: ForgeDevName joined the game
+[23:39:44] [Server thread/INFO]: Saving and pausing game...
+[23:39:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:39:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:39:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:56:21] [Server thread/INFO]: Saving and pausing game...
+[23:56:21] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:56:21] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:56:21] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:59:04] [Client thread/INFO]: Stopping!
+[23:59:04] [Server thread/INFO]: Stopping server
+[23:59:04] [Server thread/INFO]: Saving players
+[23:59:04] [Server thread/INFO]: Saving worlds
+[23:59:04] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:59:04] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:59:04] [Server thread/INFO]: Saving chunks for level 'New World'/The End

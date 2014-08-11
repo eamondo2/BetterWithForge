@@ -6,6 +6,7 @@ import com.eamondo2.bwf.events.EventHook;
 import com.eamondo2.bwf.items.BWFItemLoader;
 import com.eamondo2.bwf.proxies.CommonProxy;
 import com.eamondo2.bwf.recipes.BWFRecipeLoader;
+import com.eamondo2.bwf.tile.BWFTileEntityLoader;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
@@ -15,6 +16,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 
@@ -27,11 +29,9 @@ public class BWFMain {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem() {
-			return null;
+			return Items.item_frame;
 		}
 	};
-
-
 
 
 	@Instance(value = "BetterWithForge")
@@ -49,6 +49,8 @@ public class BWFMain {
 		BWFBlockLoader.initPhase();
 		//load custom recipes
 		BWFRecipeLoader.initPhase();
+		//load custom TE
+		BWFTileEntityLoader.initPhase();
 
 	}
 
