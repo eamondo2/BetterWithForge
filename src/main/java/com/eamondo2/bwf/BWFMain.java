@@ -32,6 +32,7 @@ public class BWFMain {
 			return Items.item_frame;
 		}
 	};
+	public static int millstoneGUIID = 0;
 
 
 	@Instance(value = "BetterWithForge")
